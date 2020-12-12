@@ -1,0 +1,236 @@
+* {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://wallpaperaccess.com/full/1534864.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto 0px;
+
+}
+
+#logowhite {
+  margin-left: 0rem;
+    max-width: 12vw;
+    background-color: rgba(0,0,0,0);
+}
+
+#searchwhite {
+    max-width: 5vh;
+    background-color: rgba(0,0,0,0);
+}
+
+.topnav {
+    width: 100%;
+    z-index: 100;
+}
+
+.topnav ul {
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 0%;
+    margin: 0rem 0rem;
+    justify-content: space-around;
+    z-index: 100;
+    background-color: rgba(0,0,0,0);
+    transition: background-color .25s;
+}
+.topnav li {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    margin: 0rem 1rem;
+    background-color: rgba(0,0,0,0);
+    transition: color .25s;
+}
+
+#saying {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    font-size: 2rem;
+    word-spacing: 0.5vw;
+    background-color: rgba(0,0,0,0);
+}
+
+.saying2 {
+    max-width: 40%;
+    margin: 20vh auto;
+    text-align: center;
+    font-size: 1.75rem;
+    word-spacing: 0.2vw;
+}
+
+#saying a {
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+}
+
+.saying2 a {
+    font-weight: bold;
+}
+
+#textArea1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 5vw;
+
+}
+
+#textArea1 div {
+    margin: auto 2vw;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#textArea1 h3 {
+    text-align: center;
+    margin-bottom: auto;
+    padding-bottom: 3vh;
+    z-index: 0;
+}
+
+#textArea1 a {
+    margin: 2vh 1vw;
+    padding: 1vh 1.5vw;
+    line-height: 1.6;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#backcolor1 {
+    border: 8px solid rgba(118, 26, 243, 0.6);
+
+}
+
+#backcolor2 {
+    border: 8px solid rgba(33, 206, 28, 0.6);
+}
+
+#backcolor3 {
+    border: 8px solid rgba(16, 188, 205, 0.6);
+}
+
+#process {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#process p {
+    max-width: 40%;
+    height: auto;
+    padding: 9vh 5%;
+    line-height: 7vh;
+    text-align: center;
+    justify-content: center;
+    background: lightgray;
+}
+
+#backImg1 {
+    background-image: url("C:/Projects/Sun Banishment Activism/Images/communitypic.png");
+    max-height: 60vh;
+    max-width: 50%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1em;
+    margin: 0vh 0;
+}
+
+#backImg2 {
+    background-image: url("https://images.unsplash.com/photo-1549573308-806b7492063e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    max-height: 60vh;
+    max-width: 50%;
+    text-align: center;
+    margin: 0vh 0;
+}
+
+#backImg3 {
+    background-image: url("https://images.unsplash.com/photo-1549573308-806b7492063e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 60vh;
+    width: 50%;
+    text-align: center;
+    margin: 0vh 0;
+}
+
+@keyframes examplecoming {
+    from {
+        transform: translateX(50px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes examplegoing {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-50px);
+    }
+}
+
+#testimonials {
+    display: flex;
+}
+
+#impactHead {
+    max-width: 40%;
+    margin: 20vh auto 10vh auto;
+    text-align: center;
+    font-size: 1.75rem;
+    word-spacing: 0.2vw;
+}
+#impact1 {
+    text-align: center;
+    margin-bottom: 10vh;
+   color: rgba(0, 0, 0, 0);
+   transition: color 0.5s;
+   width: 100%;
+}
+
+#impact2 {
+    text-align: center;
+    margin-bottom: 10vh;
+   color: rgba(0, 0, 0, 0);
+   transition: color 0.5s;
+   width: 100%;
+   margin-left: -100%;
+}
+
+.toggle {
+    transform: translateX(-20px;)
+    color: red;
+}
+
+.quote {
+    margin-bottom: 5vh;
+}
+
+.personName {
+    font-weight: bold;
+}
